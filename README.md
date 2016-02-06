@@ -2,4 +2,6 @@
 Music sharing Platform Website
 
 
-© Tricia & Sami :D
+© Tricia & Sami 
+
+/ hi sami
