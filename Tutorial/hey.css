@@ -1,0 +1,58 @@
+body: {
+	margin: 0;
+	padding: 0px;
+	
+}
+
+header{
+	background: #999;
+	color: white;
+	padding: 5px 15px 0px 15px;
+}
+
+header h1{
+	margin: 0;
+	display: inline;
+
+}
+
+nav ul {
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+nav ul li {
+	background: #333;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+	margin: 0;
+}
+
+nav ul li a {
+	color: white;
+}
+
+.row:after{
+	clear:both;
+
+
+}
+
+.col{
+	background: #666;
+	border-radius: 5px;
+	color: white;
+	padding: .5%;
+	float: left;
+	margin: .5%;
+	width: 31%;
+	
+
+}
+
+footer {
+	clear: both;
+}
