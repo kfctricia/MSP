@@ -1,0 +1,31 @@
+body {
+	background:#545C9E;
+	font-family: arial;
+
+}
+
+h1{
+	color: #222;
+}
+
+h2{
+	color: #222;
+}
+
+a {
+	color: #222;
+}
+
+p {
+	background: #666;
+	color: white;
+	padding: 10px;
+}
+
+.secondary {
+	background: #333;
+}
+
+#first {
+	background: #444;
+}
