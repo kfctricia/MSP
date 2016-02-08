@@ -1,0 +1,40 @@
+<!doctype html> 
+
+<html>
+	<head>
+		<title>MSP v0.002</title>
+		<link href="main.css" rel="stylesheet" type="text/css"/>
+
+
+		<script type="text/javascript">
+
+		function changeVideo(){
+		var url = document.getElementById("url").value;
+		var splitUrl = url.split("v=");
+		var urlModified = "https://www.youtube.com/embed/" +splitUrl[1] +"?autoplay=1&controls=0&showinfo=0&rel=0";
+		document.getElementById("ytplayer").src=urlModified;
+		}
+
+		
+	</script>
+
+	</head>
+
+	<body>
+
+		<h1>hi</h1>
+
+
+		<div id="hi"> <!-- Youtube Video !-->
+			<iframe id="ytplayer" width="640" height="360" src="https://www.youtube.com/embed/MUqBEse6RIk?rel=0&amp;autoplay=1&controls=0&amp;showinfo=0" frameborder="0"></iframe></br>
+
+			<div id="changevideosection">
+			<input type="text" id="url" placeholder='Youtube Url Here'/>
+			<button onclick="changeVideo()">Change Video</button>
+		</div>
+
+		
+		</div>
+	</body>
+
+</html>
